@@ -127,3 +127,19 @@ h3.news-title {
 	font-size: 1em;
 	text-transform: uppercase;
 }
+
+
+
+@media(max-width:635px){
+	ul.catalogo-news {
+		grid-template-columns: 1fr 1fr;
+		
+	}
+}
+
+@media(max-width:460px){
+	ul.catalogo-news {
+		grid-template-columns: 1fr;
+		
+	}
+}
